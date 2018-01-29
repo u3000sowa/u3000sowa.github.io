@@ -206,6 +206,7 @@ a.btn{
 ------------------------------------------------------------*/
 #sec05{
 	padding-top: 50px;
+	padding-bottom : 400px;
 }
 
 #sec05 dl{
@@ -231,33 +232,12 @@ a.btn{
 	line-height: 1.6em;
 }
 
-#sec05 header{
-	display: none;
-}
-
-#map{
-	position: relative;
-	padding-bottom: 75%;
-	height: 0;
-	overflow: hidden;
-}
-
-#map iframe{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100% !important;
-	height: 100% !important;
-	border: 0;
-}
-
-
 /* RESPONSIVE 設定
 ------------------------------------------------------------*/
 
 @media only screen and (min-width: 1200px){
 	.inner{
-		width: 1024px;
+		width: 700px;
 		padding-bottom: 120px;
 	}
 	section h2{
@@ -265,6 +245,10 @@ a.btn{
 	}
 	.txt h2{
 		padding: 0 0 20px !important;
+	}
+	section h3{
+		padding: 10px 0 10px;
+		font-size: 16px;
 	}
 }
 
@@ -350,7 +334,7 @@ a.btn{
 	/* SEC05 PROFILE
 	-----------------*/
 	#sec05{
-		padding-top: 120px;
+		padding-top: 10px;
 	}
 	
   #footer{
