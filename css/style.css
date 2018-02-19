@@ -111,6 +111,7 @@ section h2{
 	width: 94%;
 	margin: 0 auto;
 	padding-bottom: 50px;
+	
 }
 
 .col2 li{
@@ -177,6 +178,11 @@ a.btn{
 
 .txt h2{
 	padding: 0 0 20px !important;
+}
+
+ul.col2{
+	padding-left: 18px;
+	padding-right: 18px;
 }
 
 
@@ -351,7 +357,7 @@ a.btn{
 	.col2 li{
 		width: 40%;
 		padding: 0 3%;
-		vertical-align: top;
+		vertical-align: middle;
 	}
 }
 
