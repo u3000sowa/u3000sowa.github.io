@@ -83,10 +83,18 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 ------------------------------------------------------------*/
 #footer{
 	clear: both;
-	padding: 50px 10px 50px 0;
 	text-align: center;
 	font-size: 12px;
 	background: #fba102;
+	color: #fff;
+}
+/* アイコンを追加 */
+#footer a{
+	text-align: center;
+	clear: both;
+}
+#footer p{
+	padding: 50px 0 20px;
 }
 
 
@@ -131,6 +139,7 @@ div{
 	font-family: 'Josefin Sans', 'Noto Sans JP',sans-serif;
 }
 
+/* フォーム用btnを追加 */
 a.btn{
 	margin-bottom: 10px;
     margin-top: 2px;
@@ -352,7 +361,7 @@ ul.col2{
 	}
 	
   #footer{
-		padding: 80px 10px 10px 0;
+		padding: 20px 10px 10px 0px;
 	}
 }
 
