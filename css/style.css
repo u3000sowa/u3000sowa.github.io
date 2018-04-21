@@ -83,6 +83,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 ------------------------------------------------------------*/
 #footer{
 	clear: both;
+	padding: 50px 10px 50px 0;
 	text-align: center;
 	font-size: 12px;
 	background: #fba102;
@@ -90,8 +91,11 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 /* アイコンを追加 */
 #footer a{
+	padding: 70px 5px 20px;
 	text-align: center;
 	clear: both;
+	color: white;
+	text-decoration:underline;
 }
 #footer p{
 	padding: 50px 0 20px;
@@ -361,7 +365,7 @@ ul.col2{
 	}
 	
   #footer{
-		padding: 20px 10px 10px 0px;
+		padding: 80px 10px 10px 0;
 	}
 }
 
