@@ -179,6 +179,30 @@ a.btn{
 	list-style-type: square;
 }
 
+/* sec05転用 */
+#sec01 dl{
+	line-height: 1.2;
+}
+
+#sec01 dt{
+	clear: left;
+	float: left;
+	display: block;
+	width: 30%;
+	/* margin-right: 10%; */
+	margin-bottom: 20px;
+	/* text-align: right; */
+	line-height: 1.6em;
+}
+
+#sec01 dd{
+	width: 60%;
+	float: left;
+	text-align: left;
+	margin-bottom: 15px;
+	line-height: 1.6em;
+}
+
 
 /* SEC02 MESSAGE
 ------------------------------------------------------------*/
