@@ -203,6 +203,27 @@ a.btn{
 	line-height: 1.6em;
 }
 
+/* SEC01_1 VISION
+------------------------------------------------------------*/
+
+.vision{
+	width: 45%;
+	margin: 0 auto;
+	padding-bottom: 80px;
+}
+
+.vision ul{
+	padding-bottom: 40px;
+	list-style-type: square;
+}
+/* form */
+#sec01_1 form{
+	text-align: center;
+}
+
+#sec01_1 textarea{
+	height: 10em;
+}
 
 /* SEC02 MESSAGE
 ------------------------------------------------------------*/
@@ -535,6 +556,9 @@ ul.col2{
 		padding: 50px 0 20px 0;
 	}
 	#sec01 h2{
+		padding: 70px 0 20px;
+	}
+	#sec01_1 h2{
 		padding: 70px 0 20px;
 	}
 	.vMid{
