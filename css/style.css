@@ -131,7 +131,7 @@ section h2{
 .col2 li{
 	display: inline-block;
 	width: 100%;
-  	margin: 20px 0 20px 0;
+  	margin: 40px 0 20px 0;
 }
 
 .center{
@@ -142,28 +142,6 @@ section h2{
 div{
 	font-family: 'Josefin Sans', 'Noto Sans JP',sans-serif;
 }
-
-/* フォーム用btnを追加 */
-a.btn{
-	margin-bottom: 10px;
-    margin-top: 2px;
-	display: block;
-	height: 35px;
-	width: 180px;
-	text-decoration: none;
-	background: #fba102;
-	color: #fff;
-	line-height: 37px;
-	text-align: center;
-	border-radius: 3px;
-	box-shadow: 1px 2px 4px #fba102;
-  }
-  a.btn:active{
-	-ms-transform: translateY(2px);
-	-webkit-transform: translateY(2px);
-	transform: translateY(2px);
-	box-shadow:none;
-  }
 
 /* SEC01 VISION
 ------------------------------------------------------------*/
@@ -205,47 +183,66 @@ a.btn{
 
 /* SEC01_1 VISION
 ------------------------------------------------------------*/
-
-.vision{
-	width: 45%;
-	margin: 0 auto;
-	padding-bottom: 80px;
-}
-
-.vision ul{
+.form ul{
 	padding-bottom: 40px;
 	list-style-type: square;
 }
+
 /* form */
-#sec01_1 form{
+form{
+    width: 45%;
+    margin: 0 auto;
+    padding-bottom: 80px;
 	text-align: center;
 }
 
-#sec01_1 textarea{
-	height: 10em;
+input[type="text"],
+textarea {
+    padding: 0.8em;
+    outline: none;
+    border: 1px solid #DDD;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+textarea {
+    height: 100px;
+}
+
+input.sysNextSubmit {
+    border-radius: 0;   
+    background: -moz-linear-gradient(top, #FFF 0%, #EEE);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#EEE));
+    border: 1px solid #DDD;
+    color: #111;
+    padding: 10px 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
 /* SEC02 MESSAGE
 ------------------------------------------------------------*/
-.wrap{
-	clear: both;
-	width: 100%;
-	background: #f6f6f6;
+#sec02 .vision1{
+    width: 35%;
+    margin: auto;
+    padding-bottom: 80px;
 }
 
-.bg{
-	line-height: 0;
+.vision1 ul{
+    padding-bottom: 40px;
+    list-style-type: square;
 }
 
-.txt h2{
-	padding: 0 0 20px !important;
+/* add */
+.vision1 li{
+    word-wrap: break-word;
 }
 
-ul.col2{
-	padding-left: 18px;
-	padding-right: 18px;
+.vision1 p{
+	word-wrap: break-word;
 }
-
 
 /* SEC03 SERVICE MESSAGE STORY
 ------------------------------------------------------------*/
@@ -322,6 +319,10 @@ ul.col2{
 		padding: 10px 0 10px;
 		font-size: 16px;
 	}
+
+	input, textarea {
+		width: 350px;
+	}
 }
 
 @media only screen and (min-width: 800px){
@@ -331,7 +332,7 @@ ul.col2{
 	
   a#menu{
 		display:none;
-	}	
+    }
 
 	.panel{
 		display:block !important;
@@ -548,6 +549,10 @@ ul.col2{
 		margin: 0 auto;
 		display: block;
 	max-width: 288px;
+	}
+
+	#sec01_1 ul{
+		margin: auto;
 	}
 }
 
